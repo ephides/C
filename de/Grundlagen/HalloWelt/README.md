@@ -5,7 +5,7 @@ Das übliche "Hallo Welt!"-Beispiel sieht in C so aus:
 	#include <stdio.h>
 
 	int main() {
-           printf("Hallo Welt!\n");
+	   printf("Hallo Welt!\n");
 	   return 0;
 	}
 
@@ -24,4 +24,9 @@ Compilieren kann man das Programm mit
 Das fertige Programm wird dann in eine Datei "a.out" geschrieben. Möchte man einen anderen Namen haben, kann man den angeben:
 
  	> gcc -o hello hello.c 
+
+Aufgerufen werden kann es dann so:
+
+	> ./hello
+	Hallo Welt!
 
